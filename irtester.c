@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
     digitalWrite(1,LOW);
 
     printf("Hold on, attempting to connect to server\n");
-    ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/123", "MYSTIQUE", "Alarm", "LED");
+/*    ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/123", "MYSTIQUE", "Alarm", "LED"); */
   }
   /*NOTREACHED*/
   return 0 ;
